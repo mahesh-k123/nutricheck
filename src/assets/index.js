@@ -23,6 +23,9 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import weatherBite  from "./weatherBite.jpg";
+import kcalc from "./kcalc.jpg"
+import vitalscan from "./vitalscan.jpg"
 
 export {
   airbnb,
@@ -32,10 +35,13 @@ export {
   coinbase,
   dropbox,
   logo,
+  kcalc,
   quotes,
   robot,
+  vitalscan,
   send,
   shield,
+  weatherBite,
   star,
   menu,
   close,

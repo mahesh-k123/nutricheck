@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Billing, Business,VitalScan,CardDeal,WeatherBite ,Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import {  Business,VitalScan,CardDeal,WeatherBite , CTA, Footer, Navbar, Testimonials, Hero } from "./components";
 
 const App = () => (
   <div className="bg-dimWhite w-full overflow-hidden">
@@ -17,14 +17,11 @@ const App = () => (
     
     <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Stats />
         <Business />
-        <Billing />
         <CardDeal />
         <WeatherBite />
         <VitalScan />
         <Testimonials />
-        <Clients />
         <CTA />
         <Footer />
       </div>

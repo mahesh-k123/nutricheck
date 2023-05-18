@@ -1,4 +1,4 @@
-import { card } from "../assets";
+import { vitalscan } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -14,11 +14,11 @@ const VitalScan = () => (
       BMI.
       </p>
 
-      <Button styles={`mt-10`} />
+      <Button styles={`mt-10`} name={`Vindex`} />
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
+      <img src={vitalscan} alt="billing" className="w-[100%] h-[100%]" />
     </div>
   </section>
 );

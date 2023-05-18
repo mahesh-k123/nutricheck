@@ -113,6 +113,13 @@
   box-shadow: var(--card-shadow);
 }
 
+.feature-card:hover p {
+  color: white;
+}
+.feature-card:hover h4 {
+  color: white;
+}
+
 .feedback-container .feedback-card:last-child {
   margin-right: 0px;
 }
@@ -123,6 +130,12 @@
 
 .feedback-card:hover {
   background: var(--black-gradient);
+}
+.feedback-card:hover h4{
+  color: white;
+}
+.feedback-card:hover p{
+  color: white;
 }
 
 .blue__gradient {

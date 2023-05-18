@@ -1,4 +1,4 @@
-import { card } from "../assets";
+import { kcalc } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -14,11 +14,11 @@ const CardDeal = () => (
       BMI.
       </p>
 
-      <Button styles={`mt-10`} targetPage="/kcalc.html"/>
+      <Button styles={`mt-10`} name={`Kcindex`}/>
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
+      <img src={kcalc} alt="billing" className="w-[100%] h-[100%]" />
     </div>
   </section>
 );
